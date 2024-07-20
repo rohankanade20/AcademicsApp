@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "285708228012",
+    "firebase_url": "https://rohan1-6872a-default-rtdb.firebaseio.com",
+    "project_id": "rohan1-6872a",
+    "storage_bucket": "rohan1-6872a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285708228012:android:ba3a30ccfbdf602a195609",
+        "android_client_info": {
+          "package_name": "com.example.rohan1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Fx3q-KwYLtFydU0RLTjyaL30wLvErBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

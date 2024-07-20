@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Rohan1" parent="Theme.AppCompat.Light">
+<!--        <item name="android:windowBackground">@android:color/white</item>-->
+
+    </style>
+    <style name="RohanNo" parent="Theme.AppCompat.NoActionBar">
+       <item name="colorPrimary">@color/transparent</item>
+      <item name="colorPrimaryDark">@color/transparent</item>
+      <item name="android:windowBackground">@color/black</item>
+    </style>
+    <style name="MyActionBar" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+    <style name="about" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimary">@color/design_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+    </style>
+    <style name="hometheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+<style name="roundedImageViewRounded">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">50%</item>
+</style>
+
+</resources>

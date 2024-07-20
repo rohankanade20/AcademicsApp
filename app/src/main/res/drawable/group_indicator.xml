@@ -1,0 +1,6 @@
+<!-- group_indicator.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_empty="true" android:drawable="@android:color/transparent" />
+    <item android:state_expanded="true" android:drawable="@drawable/baseline_keyboard_double_arrow_up_24" />
+    <item android:drawable="@null" />
+</selector>

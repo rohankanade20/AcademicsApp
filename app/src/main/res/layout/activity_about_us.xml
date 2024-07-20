@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us">
+
+    <include layout="@layout/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="65dp">
+
+        <!-- The CEO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THE CEO : "
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mrs. Sakshi Rohan Kanade"
+            android:textColor="#000"
+
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <!-- The Developer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Developer : "
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mr. Rohan Nandu Kanade"
+            android:textColor="#000"
+
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For any Query contact to CEO madam."
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"
+
+            android:textStyle="bold"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="25dp"
+            android:padding="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact No.:"
+                android:layout_marginStart="100dp"
+                android:textColor="#000"
+
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/sakshi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8180054811"
+                android:layout_marginStart="2dp"
+                android:textColor="#2E47D6"
+
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<!-- dashed_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="20dp"/>
+
+    <!-- Specify the solid color for the background -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Specify the dashed border -->
+    <stroke
+        android:width="2dp"
+    android:color="#CBCEDC"
+    android:dashWidth="5dp"
+    android:dashGap="2dp" />
+
+</shape>

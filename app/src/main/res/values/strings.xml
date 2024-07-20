@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Rohan</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <style name="OpenDrawer">Open Navigation Drawer</style>
+
+    <style name="CloseDrawer">CLose Navigation Drawer</style>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="comp">Computer Engineering</string>
+    <string name="Mech">Mech Engineering</string>
+    <string name="Entc">Entc Engineering</string>
+    <string name="civil">Civil Engineering</string>
+    <string name="abc">TOKEN</string>
+
+</resources>
